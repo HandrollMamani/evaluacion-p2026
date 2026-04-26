@@ -125,21 +125,90 @@ body {
   border-radius: 1rem;
 }
 
+.valores-seccion{
+  background-color: #003366;
+  padding: 5rem 10%;
+  color: white;
+}
+
+.diositoayudame{
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.valores-grid{
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.valores-card{
+  background-color: white;
+  color: #003366;
+  padding: 3rem;
+  border-radius: 1rem;
+  flex: 1;
+}
+
+.valores-card span{
+  color: #FFAA00;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.valores-card h3{
+  margin: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   background-color: #003366;
-}
-
-.footer h2{
-  color: #FFAA00;
-}
-
-.footer-items{
   color: white;
-  margin-left: 20rem;
+  padding: rem 10%;
+}
+
+.footer-contenedor {
   display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.footer-links{
   flex-direction: column;
 }
 
-.footer-links a{
+.footer-links a {
+  color: white;
   text-decoration: none;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+}
+
+.footer-bottom{
+  text-align: center;
+  margin-top: 3rem;
+  border-top: 1px solid #D9D9D9;
+  padding-top: 2rem;
+}
+
+.footer-column{
+  flex: 1;
 }
