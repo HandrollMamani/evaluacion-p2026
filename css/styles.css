@@ -103,8 +103,7 @@ body {
 }
 
 .nosotros{
-  border: #003366;
-  border: 1px solid #D9D9D9; 
+  border: .1rem solid #D9D9D9; 
   border-radius: 2rem;
   padding: 8rem;
   margin: 5rem auto;
@@ -162,7 +161,39 @@ body {
   margin: 1rem 0;
 }
 
+.servicios{
+  flex-direction: column;
+  border: .1rem solid #D9D9D9; 
+  border-radius: 2rem;
+  padding: 5rem;
+  margin: 5rem auto;
+  width: 90%;
+}
 
+.servicios-card-cont{
+  display: flex;
+  gap: 2rem;
+}
+
+.servicios-card{
+  border: .1rem solid #D9D9D9;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  max-width: 35rem;
+  flex: 1;
+}
+
+.icono{
+  background-color: #A3D9A5;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
 
 
 
