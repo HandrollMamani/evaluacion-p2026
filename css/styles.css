@@ -124,6 +124,8 @@ body {
   border-radius: 1rem;
 }
 
+
+
 .valores-seccion{
   background-color: #003366;
   padding: 5rem 10%;
@@ -170,6 +172,22 @@ body {
   width: 90%;
 }
 
+.servicios-diositoporfavo{
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.servicios-diositoporfavo h2{
+  color: #003366;
+}
+
+.servicios-diositoporfavo h5{
+  color: #FFAA00;
+  text-transform: uppercase;
+}
+
 .servicios-card-cont{
   display: flex;
   gap: 2rem;
@@ -183,8 +201,13 @@ body {
   flex: 1;
 }
 
+.servicios-card h3{
+  color: #003366;
+}
+
 .icono{
   background-color: #A3D9A5;
+  color: #003366;
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
@@ -195,7 +218,59 @@ body {
   margin-bottom: 2rem;
 }
 
+.lacague{
+  border: #D9D9D9 solid;
+  background-color: #D9D9D9;
+  padding: 5rem 10%;
+  color: #003366;
+}
 
+.cobertura-section {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 5rem 10%;
+}
+
+.cobertura-info {
+  flex: 1;
+}
+
+.cobertura-info ul li{
+  list-style-type: '✓ ';
+}
+
+.cobertura-amarillo{
+  color: #FFAA00;
+}
+
+.cobertura-info {
+  padding: 3rem;
+  border-radius: 1rem;
+  width: 40%;
+}
+
+.cobertura-info-fondo{
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  width: 70%;
+}
+
+.cobertura-ciudades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cobertura-ciudades span {
+  background-color: #003366;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+}
 
 
 
