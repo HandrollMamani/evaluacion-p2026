@@ -275,10 +275,74 @@ body {
 
 
 
+.contacto-section{
+  display: flex;
+  gap: 5rem;
+  padding: 5rem 10%;
+  align-items: flex-start;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
 
+.contacto-info{
+  flex: 1;
+}
 
+.contacto-amarillo{
+  color: #FFAA00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.contacto-info h2{
+  color: #003366;
+}
 
+.contacto-detalles{
+  background-color: #D9D9D9;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.contacto-form{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border: 1px solid #D9D9D9;
+  border-radius: 1rem;
+}
+
+.contacto-form-diositoplz{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contacto-form-diositoplz{
+  color: #003366;
+  font-weight: bold;
+}
+
+.contacto-form input, .contacto-form textarea{
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #D9D9D9;
+  border-radius: 0.5rem;
+}
+
+.contacto-form button{
+  background-color: #FFAA00;
+  color: #003366;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 
 .footer{
@@ -287,7 +351,7 @@ body {
   padding: rem 10%;
 }
 
-.footer-contenedor {
+.footer-contenedor{
   display: flex;
   justify-content: space-between;
   gap: 2rem;
@@ -301,7 +365,7 @@ body {
   flex-direction: column;
 }
 
-.footer-links a {
+.footer-links a{
   color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -315,6 +379,11 @@ body {
   padding-top: 2rem;
 }
 
-.footer-column{
-  flex: 1;
+.footer-column h2{
+  color: #FFAA00;
+}
+
+.footer-siositosoyyodenuevo{
+  display: flex;
+  flex-direction: column;
 }
